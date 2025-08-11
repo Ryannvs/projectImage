@@ -34,7 +34,18 @@ body{
 
 }
 
+#imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+
 .imagem {
+    background-size: cover;
     background-image: var(--bg-imagem);
     transition: 2s;
 }
+
